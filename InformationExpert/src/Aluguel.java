@@ -17,6 +17,7 @@ public class Aluguel {
         this.diasAlugada = diasAlugada;
     }
 
+    
   //Metodos
   	public void adicionaAluguel(Cliente cliente, int diasAlugada, Fita fita) {
   		Aluguel aluguel = new Aluguel(cliente, diasAlugada, fita);
