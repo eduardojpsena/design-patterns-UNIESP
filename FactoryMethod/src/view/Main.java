@@ -20,7 +20,7 @@ public class Main {
 		
 		FactoryShop fs = new FactoryShop();
 		Gender gender = fs.getGender(name, type);
-		System.out.println(gender.salutation(type));
+		System.out.println(gender);
 		
 		sc.close();
 	}

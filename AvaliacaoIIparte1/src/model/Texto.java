@@ -20,6 +20,7 @@ public class Texto extends Editor{
 		
 		System.out.println("Arquivo de texto ''" + arquivo.getNome() + "'' criado com sucesso");
 		
+		//Verificar autorização de cópia
 		if (autCp.equals("S")) {
 			
 			Arquivo arquivoCopy = getDiretor().getArquivo();

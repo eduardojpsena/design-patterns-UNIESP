@@ -3,6 +3,7 @@ package model;
 public final class Arquivo {
 	
 	//Atributos
+	private String tipo;
 	private String nome;
 	private String caminho;
 	private String data;
@@ -68,18 +69,30 @@ public final class Arquivo {
 		this.email = email;
 	}
 
-	public String isAutImpressao() {
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public String getAutImpressao() {
 		return autImpressao;
 	}
+
 	public void setAutImpressao(String autImpressao) {
 		this.autImpressao = autImpressao;
 	}
 
-	public String isAutCopia() {
+	public String getAutCopia() {
 		return autCopia;
 	}
+
 	public void setAutCopia(String autCopia) {
 		this.autCopia = autCopia;
 	}
+
+	
 	
 }
